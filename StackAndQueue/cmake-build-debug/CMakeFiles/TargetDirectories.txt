@@ -1,0 +1,3 @@
+C:/Users/eryil/CLionProjects/StackAndQueue/cmake-build-debug/CMakeFiles/StackAndQueue.dir
+C:/Users/eryil/CLionProjects/StackAndQueue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/eryil/CLionProjects/StackAndQueue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
