@@ -1,0 +1,17 @@
+# ninja log v5
+661	846	7208732703286880	LinkedList.exe	1d555ea9dca7f98c
+7	965	7208730555118144	CMakeFiles/LinkedList.dir/LinkedBag.cpp.obj	a0deb9a13fce090c
+1	251	7208290443853600	CMakeFiles/LinkedList.dir/Node.cpp.obj	22673ff54c306e89
+10	659	7208732701486591	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+7	650	7208733421990496	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+651	825	7208733423675751	LinkedList.exe	1d555ea9dca7f98c
+7	751	7208734129093874	CMakeFiles/LinkedList.dir/LinkedBag.cpp.obj	a0deb9a13fce090c
+753	963	7208734131134364	LinkedList.exe	1d555ea9dca7f98c
+6	612	7208734627386125	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+613	785	7208734629038101	LinkedList.exe	1d555ea9dca7f98c
+7	681	7208734819323358	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+683	850	7208734820943615	LinkedList.exe	1d555ea9dca7f98c
+7	612	7208735047385807	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+613	787	7208735049076153	LinkedList.exe	1d555ea9dca7f98c
+6	591	7208735171164374	CMakeFiles/LinkedList.dir/main.cpp.obj	16c7e883accadbbb
+592	767	7208735172849760	LinkedList.exe	1d555ea9dca7f98c
