@@ -19,6 +19,7 @@ public:
     int getFreqOf(int item); //To learn number of given item
     bool contains(int item); //To learn if given item is in the linked list or not
     void printList(); //To print all list element
+    void reverseList(); //To reverse the order
 
 private:
     int itemCount;

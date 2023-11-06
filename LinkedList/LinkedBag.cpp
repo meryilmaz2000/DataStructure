@@ -124,3 +124,22 @@ void LinkedBag::printList(){
         i++;
     }
 }
+
+void LinkedBag::reverseList(){
+    int numberOfElement = 0 ;
+    for(Node *curr = headptr ; curr != nullptr ; curr = curr->getNext()){
+        numberOfElement++;
+    }
+    Node *curr = headptr;
+    Node *nodeArray[numberOfElement];
+    for(int i = 0 ; i < numberOfElement ; i++){
+        nodeArray[i] = curr;
+        curr = curr->getNext();
+    }
+    headptr = nodeArray[numberOfElement-1];
+    for(int i = numberOfElement-1 ; i != 0 ; i--){
+        nodeArray[i]->setNext(nodeArray[i-1]);
+    }
+    nodeArray[0]->setNext(nullptr);
+
+}

@@ -42,5 +42,15 @@ int main() {
     linkedBag.clear();
     size = linkedBag.getCurrentSize();
     cout << "After clear method, Size : "<< size << endl;
+    linkedBag.add(6);
+    linkedBag.add(1);
+    linkedBag.add(3);
+    linkedBag.add(9);
+    linkedBag.add(2);
+    cout << "Before reverse : "<<endl;
+    linkedBag.printList();
+    linkedBag.reverseList();
+    cout << "After reverse : "<<endl;
+    linkedBag.printList();
     return 0;
 }
