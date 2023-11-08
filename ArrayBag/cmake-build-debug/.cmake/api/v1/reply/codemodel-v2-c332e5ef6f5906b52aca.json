@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/eryil/CLionProjects/ArrayBag/cmake-build-debug",
-		"source" : "C:/Users/eryil/CLionProjects/ArrayBag"
+		"build" : "D:/JetBrains/CLion/workspace/ArrayBag/cmake-build-debug",
+		"source" : "D:/JetBrains/CLion/workspace/ArrayBag"
 	},
 	"version" : 
 	{

@@ -52,5 +52,18 @@ int main() {
     linkedBag.reverseList();
     cout << "After reverse : "<<endl;
     linkedBag.printList();
+    int sum = linkedBag.sumElements(linkedBag.getHeadPtr());
+    int mul = linkedBag.multiplyElements(linkedBag.getHeadPtr());
+    cout << "Mult : "<< mul << "    Sum : "<< sum << endl;
+    linkedBag.allFreq();
+    linkedBag.remainOdd();
+    cout << "After remainOdd func. : "<< endl;
+    linkedBag.printList();
+    linkedBag.add(2);
+    linkedBag.add(0);
+    linkedBag.printList();
+    linkedBag.remainEven();
+    cout << "After remainEven func. : "<< endl;
+    linkedBag.printList();
     return 0;
 }

@@ -17,6 +17,15 @@ public:
     int getFreqOf(int item);
     bool contains(int item);
     void printArray();
+    bool removeAll(int item);
+    int findMax();
+    int findMin();
+    int sumElements(int index);
+    int multiplyElements(int index);
+    void allFreq();
+    void reverseArray();
+    void remainEven();
+    void remainOdd();
 private:
     int lastIndex;
     int items[SIZE];

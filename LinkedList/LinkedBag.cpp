@@ -143,3 +143,50 @@ void LinkedBag::reverseList(){
     nodeArray[0]->setNext(nullptr);
 
 }
+int LinkedBag::sumElements(Node *node){
+    if(node == nullptr) {
+        return 0;
+    }
+    return node->getItem() + sumElements(node->getNext());
+}
+int LinkedBag::multiplyElements(Node *node){
+    if(node == nullptr) {
+        return 1;
+    }
+    return node->getItem() * multiplyElements(node->getNext());
+}
+void LinkedBag::allFreq(){
+    Node *curr = headptr;
+    int currentValue , counter = 0 , currentFreq = 0;
+    for( ; curr != nullptr ; curr = curr->getNext()){
+        currentValue = curr->getItem();
+        currentFreq = getFreqOf(currentValue);
+        for(int i = 0 ; i < currentFreq-1 ; i++){
+            curr = curr->getNext();
+        }
+        cout << "Freq. of "<< currentValue << " : "<< currentFreq << endl;
+    }
+}
+void LinkedBag::remainOdd(){
+    if(itemCount != 0 ){
+        for(Node *curr = headptr ; curr != nullptr ; curr = curr->getNext()){
+            if(curr->getItem() % 2 == 0){
+                remove(curr->getItem());
+                curr = headptr;
+            }
+        }
+    }
+}
+void LinkedBag::remainEven(){
+    if(itemCount != 0 ){
+        for(Node *curr = headptr ; curr != nullptr ; curr = curr->getNext()){
+            if(curr->getItem() % 2 == 1){
+                remove(curr->getItem());
+                curr = headptr;
+            }
+        }
+    }
+}
+Node* LinkedBag::getHeadPtr(){
+    return this->headptr;
+}

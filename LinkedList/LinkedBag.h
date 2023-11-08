@@ -20,6 +20,12 @@ public:
     bool contains(int item); //To learn if given item is in the linked list or not
     void printList(); //To print all list element
     void reverseList(); //To reverse the order
+    int sumElements(Node *node);
+    int multiplyElements(Node *node);
+    void allFreq();
+    void remainOdd();
+    void remainEven();
+    Node* getHeadPtr();
 
 private:
     int itemCount;
